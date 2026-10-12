@@ -6,6 +6,7 @@ Documentation de modifications **locales**, non officielles, comparees au code d
 2. [Contournement informations/sondages et compaction des cours](FORMATTER_AND_TIMETABLE.md)
 3. [Reductions de sollicitations et etat des donnees](ANTI_BAN_ET_DONNEES.md)
 4. [Verifications, sauvegardes, futures mises a jour](VERIFICATIONS_ET_MISE_A_JOUR.md)
+5. [Tableaux de bord et notifications HA : hors du connecteur](CONFIGURATION_HA.md)
 
 **Reproductibilite :** [script anti-bannissement 2.4.5](../maintenance/apply_pronote_safety.py). Le connecteur ENT publie a la racine est fourni pour **revue**, pas comme image garantie de l'installation locale. Le script anti-bannissement est limite a la version 2.4.5.
 
