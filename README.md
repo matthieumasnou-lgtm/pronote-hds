@@ -12,7 +12,7 @@ Do not overwrite the upstream integration with the author's entire local install
 
 ## Test status and limitations
 
-The author reports successful use of one parent account with two child profiles, without a QR code. EduConnect, MFA and CAPTCHA have not been validated. Redirect handling, login error handling, and session renewal need independent review.
+The public ENT adapter has been **AST-verified against the locally running adapter** (same executable Python structure after removing docstrings; comments and formatting differ). The author reports successful use of one parent account with two child profiles, without a QR code. EduConnect, MFA and CAPTCHA have not been validated. Redirect handling, login error handling, and session renewal need independent review.
 
 **Do not publish credentials, session cookies, tokens, or configuration exports.**
 
