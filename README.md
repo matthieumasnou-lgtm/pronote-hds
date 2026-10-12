@@ -19,3 +19,7 @@ The author reports successful use of one parent account with two child profiles,
 ## Home Assistant — correctifs locaux
 
 Voir [PRONOTE_SAFETY.md](maintenance/PRONOTE_SAFETY.md) et [apply_pronote_safety.py](maintenance/apply_pronote_safety.py) pour le correctif anti-bannissement, les sauvegardes, les limites de compatibilité et la marche à suivre avant toute mise à jour HACS.
+
+## Notes de maintenance
+
+Voir [l'index de documentation technique](docs/INDEX.md) pour les changements locaux verifies d'octobre 2026.
