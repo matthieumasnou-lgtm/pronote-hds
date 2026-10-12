@@ -8,6 +8,6 @@ Documentation de modifications **locales**, non officielles, comparees au code d
 4. [Verifications, sauvegardes, futures mises a jour](VERIFICATIONS_ET_MISE_A_JOUR.md)
 5. [Tableaux de bord et notifications HA : hors du connecteur](CONFIGURATION_HA.md)
 
-**Reproductibilite :** [script anti-bannissement 2.4.5](../maintenance/apply_pronote_safety.py). Le connecteur ENT publie a la racine est fourni pour **revue**, pas comme image garantie de l'installation locale. Le script anti-bannissement est limite a la version 2.4.5.
+**Reproductibilite :** [script anti-bannissement 2.4.5](../maintenance/apply_pronote_safety.py). Le connecteur ENT publie a la racine est fourni pour **revue** : sa logique Python est **verifiee identique a celle installee (AST sans docstrings)**, meme si ses commentaires et sa mise en forme different. Cette equivalence ne garantit pas la compatibilite avec d'autres ENT. Le script anti-bannissement est limite a la version 2.4.5.
 
 **Pour les developpeurs :** commencer par les deux premiers documents afin de distinguer les modifications potentiellement generalisables des contournements provisoires qui supprimeraient des fonctionnalites.
