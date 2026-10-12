@@ -15,3 +15,7 @@ Do not overwrite the upstream integration with the author's entire local install
 The author reports successful use of one parent account with two child profiles, without a QR code. EduConnect, MFA and CAPTCHA have not been validated. Redirect handling, login error handling, and session renewal need independent review.
 
 **Do not publish credentials, session cookies, tokens, or configuration exports.**
+
+## Home Assistant — correctifs locaux
+
+Voir [PRONOTE_SAFETY.md](maintenance/PRONOTE_SAFETY.md) et [apply_pronote_safety.py](maintenance/apply_pronote_safety.py) pour le correctif anti-bannissement, les sauvegardes, les limites de compatibilité et la marche à suivre avant toute mise à jour HACS.
