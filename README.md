@@ -1,1 +1,1 @@
-# pronote-hds
+Connecteur Pronote Hauts-de-Seine
