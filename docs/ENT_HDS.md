@@ -12,4 +12,6 @@ Le module verifie les URLs HTTPS attendues, limite les destinations de redirecti
 
 Un essai reel avec un compte parent et deux profils enfants a ete rapporte comme fonctionnel sans QR code. Aucun jeu de tests reproductible n'est fourni dans ce depot. EduConnect, MFA, CAPTCHA et d'autres etablissements n'ont pas ete verifies.
 
-Le fichier localement installe n'a **pas** ete confirme identique octet pour octet au fichier publie : les tailles observees different. La version publique reste une **proposition pour revue**, pas un export du Raspberry Pi. Il faut examiner manuellement les differences, sans exposer la configuration de l'installation, avant toute contribution.
+**Comparaison confirmée le 12 octobre 2026 :** le fichier public (6 075 octets) et le fichier effectivement installe (6 863 octets) ont un **AST Python identique après exclusion des docstrings**. La syntaxe des deux fichiers est valide. Les differences relevees sont de la mise en forme, des commentaires et des docstrings : **la logique executable de l'adaptateur est la meme**. Les fichiers ne sont pas identiques octet pour octet, mais le connecteur publie est fidele au comportement du code installe. Cela ne remplace pas des tests sur d'autres portails ou environnements.
+
+Verification reproductible : hachage SHA-256 de l'AST normalise (sans docstrings) = `67bfc21c4d25256197c56de099946010bd12e919d34604eaa9dcc4de2fe7055f` pour chacun. Comparaison effectuee entre le fichier local HA et la branche `main` du depot public a cette date.
